@@ -15,7 +15,7 @@ class Program
         
         for (int turn = 0; turn < 9; turn++)
         {
-            //TicTacTools.PrintBoard(board);
+            TicTacTools.PrintBoard(board);
             Console.WriteLine($"Player {currentPlayer}, enter a position between 1 and 9!");
             if (int.TryParse(Console.ReadLine(), out int position) && position >= 1 && position <= 9)
             {
