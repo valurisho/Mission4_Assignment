@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZUfc3Klilak=",
+  "dgSpecHash": "FQlVMWo8zHU=",
   "success": true,
-  "projectFilePath": "/Users/rileywells/RiderProjects/Mission4_Assignment/Mission4_Assignment.csproj",
-  "expectedPackageFiles": [
-    "/Users/rileywells/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\jonat\\Source\\Repos\\Mission4_Assignment\\Mission4_Assignment.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
