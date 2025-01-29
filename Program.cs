@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+Console.WriteLine("Welcome to Tic-Tac-Toe!");
 
-Console.WriteLine("Hello, World!");
