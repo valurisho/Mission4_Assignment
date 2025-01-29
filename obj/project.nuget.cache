@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tCYO5zD6VF4=",
+  "dgSpecHash": "ZUfc3Klilak=",
   "success": true,
-  "projectFilePath": "/Users/valu.montoya/RiderProjects/Mission4_Assignment/Mission4_Assignment.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/rileywells/RiderProjects/Mission4_Assignment/Mission4_Assignment.csproj",
+  "expectedPackageFiles": [
+    "/Users/rileywells/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

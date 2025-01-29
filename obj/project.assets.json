@@ -8,24 +8,25 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/valu.montoya/.nuget/packages/": {}
+    "/Users/rileywells/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/valu.montoya/RiderProjects/Mission4_Assignment/Mission4_Assignment.csproj",
+      "projectUniqueName": "/Users/rileywells/RiderProjects/Mission4_Assignment/Mission4_Assignment.csproj",
       "projectName": "Mission4_Assignment",
-      "projectPath": "/Users/valu.montoya/RiderProjects/Mission4_Assignment/Mission4_Assignment.csproj",
-      "packagesPath": "/Users/valu.montoya/.nuget/packages/",
-      "outputPath": "/Users/valu.montoya/RiderProjects/Mission4_Assignment/obj/",
+      "projectPath": "/Users/rileywells/RiderProjects/Mission4_Assignment/Mission4_Assignment.csproj",
+      "packagesPath": "/Users/rileywells/.nuget/packages/",
+      "outputPath": "/Users/rileywells/RiderProjects/Mission4_Assignment/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/valu.montoya/.nuget/NuGet/NuGet.Config"
+        "/Users/rileywells/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -43,7 +44,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -59,12 +61,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/valu.montoya/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
