@@ -27,11 +27,11 @@ public class TicTacTools
                     boardArray[condition[0]] == boardArray[condition[1]] &&
                     boardArray[condition[1]] == boardArray[condition[2]])
             {
-                if (boardArray[condition[0]] == 'x')
+                if (boardArray[condition[0]] == 'X')
                 {
                     return 1;
                 }
-                else if (boardArray[condition[0]] == 'o')
+                else if (boardArray[condition[0]] == 'O')
                 {
                     return 2;
                 }
