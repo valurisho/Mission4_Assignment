@@ -12,8 +12,8 @@ class Program
     {
         Console.WriteLine("Welcome to the game of Tic Tac Toe!");
         Console.WriteLine("Player 1 has an X, Player 2 has a O.");
-        
-        for (int turn = 0; turn < 9; turn++)
+        int turn = 0;
+        while (!gameOver && turn < 9)
         {
             TicTacTools.PrintBoard(board);
             Console.WriteLine($"Player {currentPlayer}, enter a position between 1 and 9!");
@@ -23,7 +23,6 @@ class Program
                 if (board[index] == 'X' || board[index] == 'O')
                 {
                     Console.WriteLine("That spot is already taken! Please choose another one!");
-                    turn--;
                 }
                 else
                 {
@@ -36,38 +35,45 @@ class Program
                         board[index] = 'O';
                     }
                     
-                    if (currentPlayer == 1)
+                    result = TicTacTools.CheckForWinner(board);
+                    if(result == 1)
                     {
-                        currentPlayer = 2;
+                        TicTacTools.PrintBoard(board);
+                        Console.WriteLine("Player 1 (X) wins!");
+                        gameOver = true;
+
+                    }
+                    else if(result == 2)
+                    {
+                        TicTacTools.PrintBoard(board);
+                        Console.WriteLine("Player 2 (0) wins!");
+                        gameOver = true;
                     }
                     else
                     {
-                        currentPlayer = 1;
+                        turn++;
+                        if (currentPlayer == 1)
+                        {
+                            currentPlayer = 2;
+                        }
+                        else
+                        {
+                            currentPlayer = 1;
+                        }
                     }
                 }
             }
             else
             {
                 Console.WriteLine("Please enter a valid position!");
-                turn--;
             }
         }
-        result = TicTacTools.CheckForWinner(board);
-        if (result == 0)
+        if (!gameOver) // If no one won
         {
-            Console.WriteLine("No one wins!");
+            TicTacTools.PrintBoard(board);
+            Console.WriteLine("It's a tie!");
         }
-        else if(result == 1)
-        {
-            Console.WriteLine("Player 1 (X) wins!");
-            
-        }
-        else if(result == 2)
-        {
-            Console.WriteLine("Player 2 (0) wins!");
-        }
-        Console.WriteLine("Thank you for playing!");
-        
+        Console.WriteLine("Thanks for Playing!");
     }
 }
 
