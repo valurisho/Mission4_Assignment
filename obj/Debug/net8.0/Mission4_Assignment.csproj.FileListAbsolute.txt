@@ -1,0 +1,15 @@
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/bin/Debug/net8.0/Mission4_Assignment
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/bin/Debug/net8.0/Mission4_Assignment.deps.json
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/bin/Debug/net8.0/Mission4_Assignment.runtimeconfig.json
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/bin/Debug/net8.0/Mission4_Assignment.dll
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/bin/Debug/net8.0/Mission4_Assignment.pdb
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/obj/Debug/net8.0/Mission4_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/obj/Debug/net8.0/Mission4_Assignment.AssemblyInfoInputs.cache
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/obj/Debug/net8.0/Mission4_Assignment.AssemblyInfo.cs
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/obj/Debug/net8.0/Mission4_Assignment.csproj.CoreCompileInputs.cache
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/obj/Debug/net8.0/Mission4_Assignment.sourcelink.json
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/obj/Debug/net8.0/Mission4_Assignment.dll
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/obj/Debug/net8.0/refint/Mission4_Assignment.dll
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/obj/Debug/net8.0/Mission4_Assignment.pdb
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/obj/Debug/net8.0/Mission4_Assignment.genruntimeconfig.cache
+/Users/valu.montoya/RiderProjects/Mission4_Assignment/obj/Debug/net8.0/ref/Mission4_Assignment.dll
