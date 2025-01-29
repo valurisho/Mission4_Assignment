@@ -11,6 +11,5 @@ public class TicTacTools
         Console.WriteLine("--+---+--");
         Console.WriteLine($"{boardArray[6]} | {boardArray[7]} | {boardArray[8]}");
     }
-
     
 }
